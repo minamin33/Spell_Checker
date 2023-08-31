@@ -1,0 +1,39 @@
+
+
+Write a spell checker program to accomplish the following task:
+
+Read all of the words from a dictionary file, and store them in a java ArrayList data structure.
+
+Now ask the user to enter a word that you will search for in the ArrayList. If you find it, print the location/index at which it was found. Otherwise, print a message indicating that the word was not found. You should consider the first word to be in position 1. Continue this process until the user searches for the word stop.
+
+If a word happens to appear more than once in the array you should print only the first location at which it occurred.
+
+An example of your program output is listed below.
+
+(As usual, the user's input is underlined.)
+
+File name: dict10.txt (You can also hard code this file name in source code, instead of as a user input)
+
+Search for: cat
+
+`cat' was found in position 3
+
+Search for: file
+
+`file' was found in position 6
+
+Search for: aardvark
+
+Sorry, `aardvark' was not found
+
+Search for: apple
+
+`apple' was found in position 1
+
+Search for: iphone
+
+`iphone' was found in position 9
+
+Search for: stop
+
+Bye!
